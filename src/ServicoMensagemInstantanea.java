@@ -1,23 +1,12 @@
-//Classe pai
-//app são classes filhas que herdam os atributos do pai
-public class ServicoMensagemInstantanea {
-    public void enviarMensagem() {
-        //primeiro confirmar se esta conectado a internet
-        validarConectadoInternet();
-        System.out.println("Enviando mensagem");
-        //depois de enviada, salva o histórico da mensagem
-        salvarHistoricoMensagem();
-    }
-    public void receberMensagem() {
-        System.out.println("Recebendo mensagem");
-    }
+/* Classe pai
+Os serviços de mensagem são classes filhas que herdam os atributos da classe pai.
+Abstração: A classe pai não sabe como as coisas acontecem. Quem vai dizer como funcionam são as classes filhas.
+No caso a classe pai define que para ser um serviço de mensagem precisam enviar e receber mensagem
+Cada classe filha que tiver esse método vai fazer o método/processo do seu próprio jeito
+*/
 
-    //métodos privadas, visíveis somente na classe
-    private void validarConectadoInternet() {
-        System.out.println("Validando se está conectado a internet");
-    }
-    private void salvarHistoricoMensagem() {
-        System.out.println("Salvando o histórico da mensagem");
-    }
+public abstract class ServicoMensagemInstantanea {
+    public abstract void enviarMensagem();
+    public abstract void receberMensagem();
 }
 

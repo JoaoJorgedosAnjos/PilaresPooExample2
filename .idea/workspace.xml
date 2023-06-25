@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b37905a-0109-4c06-8883-5afcc0418a4d" name="Changes" comment="Added comentários">
-      <change afterPath="$PROJECT_DIR$/src/FacebookMessenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServicoMensagemInstantanea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Telegram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComputadorPedrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputadorPedrinho.java" afterDir="false" />
+    <list default="true" id="0b37905a-0109-4c06-8883-5afcc0418a4d" name="Changes" comment="Aula herança, entendendo classe pai e herança na classe filha">
+      <change beforePath="$PROJECT_DIR$/src/FacebookMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FacebookMessenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MSNMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MSNMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServicoMensagemInstantanea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServicoMensagemInstantanea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Telegram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Telegram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687695065755</updated>
-      <workItem from="1687695066808" duration="1794000" />
+      <workItem from="1687695066808" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <option name="closed" value="true" />
@@ -84,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687698627103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aula herança, entendendo classe pai e herança na classe filha">
+      <option name="closed" value="true" />
+      <created>1687699355542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687699355542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +100,7 @@
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="Aula Encapsulamento" />
     <MESSAGE value="Added comentários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comentários" />
+    <MESSAGE value="Aula herança, entendendo classe pai e herança na classe filha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula herança, entendendo classe pai e herança na classe filha" />
   </component>
 </project>
